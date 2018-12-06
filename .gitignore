@@ -1,0 +1,42 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+application/sessions/*
+!application/sessions/index.html
+!application/sessions/.htaccess
+
+updates/*
+!updates/index.html
+
+downloads/*
+!downloads/index.html
+!downloads/relatorios/index.html
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+.settings/*
+.buildpath
+.project
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/node_modules
+node_modules
